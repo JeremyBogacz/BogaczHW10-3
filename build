@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Compiling myLed.cpp into myLed.cgi"
+g++ myLed.cpp -o myLed.cgi -lcgicc
+echo "Done"

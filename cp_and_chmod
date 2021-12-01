@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Copying myLed.cgi to /usr/lib/cgi-bin"
+sudo cp myLed.cgi /usr/lib/cgi-bin
+echo "Adding s permission to /usr/lib/cgi-bin/myLed.cgi"
+sudo chmod +s /usr/lib/cgi-bin/myLed.cgi
+echo "Done"
